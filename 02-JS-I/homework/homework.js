@@ -1,7 +1,11 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
+<<<<<<< HEAD
 const nuevaString = 'Hola';
+=======
+const nuevaString = 'hola';
+>>>>>>> 36c7af042170ffd1bd07fb295c58d6979d011ae7
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 2;
@@ -16,7 +20,11 @@ const nuevaResta = 10 - 5 === 5;
 const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
+<<<<<<< HEAD
 const nuevoModulo = 21 % 5 === 4;
+=======
+const nuevoModulo = 21 % 5 === 4.25;
+>>>>>>> 36c7af042170ffd1bd07fb295c58d6979d011ae7
 
 
 // En los próximos 22 problemas, deberás completar la función.
