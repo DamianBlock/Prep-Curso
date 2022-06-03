@@ -1,2 +1,0 @@
-{System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls2
-}
