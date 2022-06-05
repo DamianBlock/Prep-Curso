@@ -70,9 +70,9 @@ function esDiezOCinco(numero) {
   // De lo contrario, devuelve "false"
   // Tu código:
   switch (numero) {
-    case 10: return true
+    case 10: return true;
     break;
-    case 5: return false
+    case 5: return false;
     break;
     }
 }
