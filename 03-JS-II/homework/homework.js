@@ -148,8 +148,8 @@ if (numero === 0 || numero === 1) {
     if( numero % i === 0) { 
       return false;
     }
-    return true;
-  }
+      }
+      return true;
 }
 
 function esVerdadero(valor){
