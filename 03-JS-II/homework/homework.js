@@ -145,7 +145,7 @@ if (numero === 0 || numero === 1) {
 
 
   for (var i=2 ; i <= numero/2 ; i++) {
-    if( numero % 1 === 0) { 
+    if( numero % i === 0) { 
       return false;
     }
     return true;
