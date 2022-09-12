@@ -189,9 +189,8 @@ function agregarMetodoCalculoDescuento (producto) {
 
   producto.calcularPrecioDescuento = function(){
 
-  //  function descuentoProducto () {
-  //  descuento = producto.precio * porcentajeDeDescuento ;
-    //  calcular = producto.precio - descuento;
+ // return producto.precio - (producto.precio * producto.porcentajeDeDescuento);  opcion alternativa, con la diferencia que en el caso de modificar el objeto 'prodtuco' 
+ // a 'producto2' por ejemplo no serviría en este caso esta opción
 
        return this.precio - (this.precio * this.porcentajeDeDescuento);
     
