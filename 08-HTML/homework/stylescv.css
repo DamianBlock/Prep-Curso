@@ -1,0 +1,50 @@
+h1 {
+    color: darkred;
+    display: flex;          /* sirve para centrar elementos */
+    justify-content: center;
+    align-items: center; 
+} 
+
+h3{
+    color: rgb(170, 127, 21);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+    color: rgb(136, 42, 8);
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(fondocv.jpeg);   
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+img {
+    
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}    
+
+#thirdDiv{
+
+    height: 400px;
+   /* width: 600px; */
+       border: 5px solid rgb(8, 8, 36);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
