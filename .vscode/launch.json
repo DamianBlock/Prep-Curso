@@ -5,11 +5,14 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "pwa-chrome",
+            "type": "msedge",
+           // "request": "attach",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "http://localhost:8080",
-            "webRoot": "${workspaceFolder}"
+           // "name": "Attach to browser",
+           "name": "Launch Msedge against localhost",
+           "url": "http://localhost:8080",
+           "webRoot": "${workspaceFolder}"
+       // "port": 9222
         }
     ]
 }
